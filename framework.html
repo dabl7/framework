@@ -1013,19 +1013,55 @@
       io('output').style.fontWeight='normal'
     }
 
-    function ASCIIbeam() {
-      a='\n' //Ebeamframework.png
+    function ASCIIframe() {
+      a='\n'
+      a+='     ~~+~~~++~+~~+~~+~+~+~+~+~~+~~~+~~~~~+~+~~+~~~+~~~~+~~~+~~~~~+~+~~+~~~+~~~~+~~~+~~~~~+~+~~+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+~.\n'
+      a+='  ~+ooooooo===oooooooo==oo==oooooooooooooooooo===o===ooooooooooooooooo===o===ooooooooooooooooo===ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo=+.\n'
+      a+=' +oooo=============o===========o====oo=====o===========o====oo=====o===========o====oo=====o======oo==oo====oo====oo==oo==oo==oo====oo====oo==oo==oo===o====ooooo+\n'
+      a+='+==oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo==o.\n'
+      a+='+==ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo=o~\n'
+      a+='+==oooooooooooo=====o=o=o=====o=o==ooo===o==oo=oo======o==o=o==ooooooooooooooooooooooooooooooooooooooo=o====o=====o==o=oo========o===oo=o=======o=o=oooooooooooo=o~\n'
+      a+='+o=oooooooooooooo=oooooooooooooooooooooooooooooooooo==ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo=ooooooooooo=oooooooooooooooooooooooooooooooooo=o.\n'
+      a+='+==oooooooooooo++++++++++++++++++++++++++++++++++++++++++++++++=oooooooooooooooooooooooooooooooooo=+++++++++++++++++++++++++++++++++++++++++++++++++oooooooooooo=o~\n'
+      a+='+==ooooooooooo=                                              .+==ooooooooooooooooooooooooooooooooo==~                                              .o=oooooooooo=o~\n'
+      a+='+==ooooooooooo=                                            .+oooooooooooooooooooooooooooooooooooooooo=+                                            ~o=oooooooooo==.\n'
+      a+='+==ooooooooooo=                                          .+oooooooooooooooooooooooooooooooooooooooooo===+                                          ~ooooooooooo===~\n'
+      a+='+==ooooooooooo=                                        .+ooooooooooooooo=ooooooooooooooooo=ooooooooooo=oo=+                                        ~==oooooooooo=o~\n'
+      a+='+==ooooooooooo=                                      .+ooo=ooooooooooo=oo==ooooooooooooo=ooooooooooooooo=o==+.                                     ~==oooooooooo=o.\n'
+      a+='+==ooooooooooo=                                    .+ooo=oooooooooo==o==+.=o=ooooooooo=o+.+ooo=ooooooooooo=o==+                                    ~o=oooooooooooo~\n'
+      a+='+==ooooooooooo=                                  .+ooooooooooooooo=oo=+.  ==oooooooooo=o+  .+ooooooooooooooo====+.                                 ~o=oooooooooo=o~\n'
+      a+='+===oooooooooo=                                .+ooo=ooooooooooo=oo=+     =ooooooooooo=o+    .+ooooooooooooooo=oo=+.                               ~==oooooooooo=o.\n'
+      a+='+==ooooooooooo=                              ~+==o=ooooooooooo=oo=+       =o=ooooooooo=o+      .+ooo=ooooooooooo=o==+.                             ~==oooooooooo=o~\n'
+      a+='+==ooooooooooo=                            ~+ooo=oooooooooooooo=+         ==oooooooooo=o+        .+ooooooooooooooo==o=+.                           .o=oooooooooooo~\n'
+      a+='+==ooooooooo=o=                          ~+o==oooooooooooo=oo=+           =ooooooooooo=o+          .+=oo=oooooooooo==oo=+.                         ~o=oooooooooooo.\n'
+      a+='+==ooooooooooo=                        ~+oo=oooooooooooo=o==~             ===ooooooooo=o+            .+====ooooooooooo=ooo+.                       ~===ooooooooooo.\n'
+      a+='+==ooooooooooo=                      ~+o===ooooooooooo=oo=+               =o=ooooooooo=o+              .+=oo=ooooooooooo=ooo+.                     .==oooooooooo=o~\n'
+      a+='+==ooooooooooo=                    ~+oooooooooooooooooo=~                 =ooooooooooo=o+                .+=oo=o==oooooooooooo+.                   ~o=oooooooooo=o.\n'
+      a+='+o=ooooooooooo=                  ~+ooo=ooooooooooo=oo=~                   =o=ooooooooo=o+                   +=oo==oooooooooooooo+.                 ~oooooooooooooo~\n'
+      a+='+==ooooooooooo=                ~+ooooooooooooooo==o=~                     =ooooooooooo=o+                    .+====ooooooooooo=ooo+.               ~o=oooooooooo=o~\n'
+      a+='+==ooooooooooo=              ~=oo=oooooooooooo=o==~                       =o=ooooooooo=o+                      .+=oo==oooooooooo=ooo+.             .o=oooooooooo=o.\n'
+      a+='+==ooooooooooo=            ~+o===oooooooooooooo=~                         =o=ooooooooo=o+                         +====ooooooooooo=ooo+.           .oooooooooooo=o~\n'
+      a+='+==ooooooooooo=          ~=oo==ooooooooooo=oo+~                           =ooooooooooo=o+                           +=oo=ooooooooooooo==+~         ~oooooooooooooo~\n'
+      a+='+===oooooooooo=        ~====ooooooooooo=ooo+~                             =ooooooooooooo+                             +=ooooooooooooooo=oo+~       .o=oooooooooooo~\n'
+      a+='+==ooooooooooo=      ~=oo==oooooooooo=ooo+~                               =ooooooooooo=o+                               +=oo=oooooooooooo===+~     ~o=oooooooooo=o.\n'
+      a+='+o=ooooooooooo=.   ~=oo=oooooooooooo=oo+~                                 =ooooooooooooo+                                 ~=oo=ooooooooooo==oo+~   ~o=oooooooooooo~\n'
+      a+='+==ooooooooooo=  ~=o==ooooooooooo=ooo+~                                   =ooooooooooooo+                                   +=oo=ooooooooo=oo=o=+~ .o=oooooooooooo.\n'
+      a+='+==ooooooooooo=+==o=oooooooooooo==o+~                                     =ooooooooooo=o+                                     +=oo=ooooooooooo==oo++=ooooooooooooo~\n'
+      a+='+==ooooooooooo==o=ooooooooooo=ooo+~                                       =ooooooooooooo+                                       ~=oo=oooooooooooo=oo=ooooooooooo=o.\n'
+      a+='+o=ooooooooooo==ooooooooooo=ooo+~                                         =ooooooooooooo+                                         ~=oo=oooooooooooo=oooooooooooooo~\n'
+      a+='+o=oooooooooooooooooooooooo==+.                                           =ooooooooooooo+                                           ~=oooooooooooooooooooooooooo=o.\n'
+      a+='+==ooooooooooooooooooooo=o=+.                                             =ooooooooooo=o+                                             ~=oooooooooooooooooooooooo=o.\n'
+      a+='+==ooooooooooooooooooooo==~...............................................=ooooooooooo=o+...............................................+=oooooooooooooooooooooooo~\n'
+      a+='+o=oooooooooooooooooooooo==ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo=ooooooooooooooooooooooooooooooooooooooooooooooo==oooooooooooooooooooooooo.\n'
+      a+='+o=oooooooooooooooooooooooooooo=ooooooooooooooooooooooooooooooooooooooo=ooooooooooooooooooooooooooooooooooooooooo=ooooooooooo=oooo=ooo=ooooooooooooooooooooooooo=o~\n'
+      a+='+==ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.\n'
+      a+='+==ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo=o~\n'
+      a+='.=o==ooooooooooooo=oooooo=oo=oooooo=oo=oooo=oo=oooo=oo=ooo=ooo=ooooooooo=ooooooooooooooo=oooo=ooooo=oo=ooooooooooo=oooooooooooooooooo=oooooo=oooooooooooooooo===o=\n'
+      a+=' ~=ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+.\n'
+      a+='   ~++=======================================================================================================================================================++.\n'
       
       io('output').textContent=a
-      io('output').style.fontSize='11px'
-      io('output').style.fontWeight='bold'
-    }
-
-    function ASCIIpipe() {
-      a='\n' //Epipeframework.png
-      
-      io('output').textContent=a
-      io('output').style.fontSize='11px'
+      io('output').style.fontSize='4px'
       io('output').style.fontWeight='bold'
     }
 
@@ -1037,15 +1073,17 @@
         io('b0').style.display=''
         io('degr').style.display=''
         io('b1').style.display=''
-        ASCIIpipe()
+        ASCIIframe()
       } else {
         io('diam').style.display='none'
         io('b0').style.display='none'
         io('degr').style.display='none'
         io('b1').style.display='none'
-        ASCIIbeam()
+        ASCIIframe()
       }
     }
+
+    ASCIIframe()
   </script>
 </body>
 </html>
