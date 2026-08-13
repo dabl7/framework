@@ -33,17 +33,20 @@
 
   <pre id="output">(click calculate)</pre>
 
-  <br><pre style="font-size: 9px;">v1.0.1 (YouTube: @dabl2829)</pre>
+  <br><pre style="font-size: 9px;">v1.1.0 (YouTube: @dabl2829)</pre>
 
   <script>
     //framework calculator (by @dabl2928 on youtube)
     //v1.0.0 - initial (2026 Jun 8)
     //v1.0.1 - remove split degrees because update fixed the rotate glitch (2026 Jul 6)
+    //v1.1.0 - updated to 3 decimals (2026 Aug 8)
 
-    function round(n,d=2) {
+    decimals=3 //number of decimals to round to
+
+    function round(n,d=decimals) {
       p=Math.pow(10,d)
       return Math.round(n*p)/p
-    } //default rounds to 2 decimals
+    }
 
     function io(id) {
       return document.getElementById(id);
@@ -85,13 +88,13 @@
 
         out+=`Length: ${length} (use ${length}, both sides)\n\n`
 
-        out+=`Top down angle: ${alpha}\n`
-        out+=`Vertical angle: ${beta}`
+        out+=`Top down angle: ${round(alpha,2)}\n`
+        out+=`Vertical angle: ${round(beta,2)}`
 
         if (type=='pipe') {
             out+=`\n\nPipe diameter: ${d} (amount in scale: ${round(d/2-1)} both sides)\n`
             out+=`Circle piece: ${circle_piece} (amount in scale: ${round(circle_piece/2-1)})\n`
-            out+=`Degrees for rotating: ${round(deg)}`
+            out+=`Degrees for rotating: ${round(deg,2)}`
         }
 
       } else {
